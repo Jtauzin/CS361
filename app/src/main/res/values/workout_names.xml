@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="workout_array">
+        <item>Bench Press</item>
+        <item>Squat</item>
+        <item>Bicep Curls</item>
+        <item>Tricep Extension</item>
+        <item>Calf Raise</item>
+        <item>Hamstring Curl</item>
+        <item>Shrugs</item>
+        <item>Shoulder Press</item>
+    </string-array>
+</resources>
