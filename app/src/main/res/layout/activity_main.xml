@@ -33,7 +33,20 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@id/help_button"
         app:layout_constraintStart_toEndOf="@id/home_button"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Tap 'Add Workout' to add a workout to your history\n\nTap 'Get Weight Recommendation' to get recommended weight increases\n\nTap 'Workout History'to view your workout history"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/help_button"
+        app:layout_constraintStart_toEndOf="@id/home_button"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -40,6 +40,15 @@ class WorkoutEntryActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
         })
 
+        binding.helpButton.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, HelpActivity::class.java))
+        })
+
+        binding.cancelButton.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, WeightRecActivity::class.java))
+            finish()
+        })
+
         binding.entryButtonGroup.setOnCheckedChangeListener { radioGroup, i ->
             val id = binding.entryButtonGroup.checkedRadioButtonId
             if (id == R.id.dropdown_entry_button){

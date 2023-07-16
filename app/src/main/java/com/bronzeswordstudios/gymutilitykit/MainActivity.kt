@@ -22,5 +22,13 @@ class MainActivity : AppCompatActivity() {
         binding.weightRecButton.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, WeightRecActivity::class.java))
         })
+
+        binding.helpButton.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, HelpActivity::class.java))
+        })
+
+        binding.historyButton.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, WorkoutHistoryActivity::class.java))
+        })
     }
 }
